@@ -9,3 +9,15 @@ const sayHello1 = function (name) {
 }
 
 sayHello1("Lucy")
+
+const sayHelloToConsole = function (name) {
+  console.log("Hello, " + name);
+}
+
+sayHelloToConsole("John");
+
+const returnSayhello = function (name) {
+  return "Hello, " + name;
+}
+const greeting = returnSayhello("John");
+console.log(greeting)
